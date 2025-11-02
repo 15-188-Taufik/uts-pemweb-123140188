@@ -59,7 +59,7 @@ Berikut adalah beberapa tampilan dari aplikasi:
 
 ### 4. Halaman Koleksi Favorit
 *Tabel yang menampilkan karya-karya yang telah disimpan.*
-![Screenshot halaman favorit](readme_assets/favorite.jpeg)
+![Screenshot halaman favorit](_readme_assets/favorite.jpeg)
 
 ---
 
