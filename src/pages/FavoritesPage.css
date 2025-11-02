@@ -1,0 +1,77 @@
+/* src/pages/FavoritesPage.css */
+
+.favorites-page h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Wrapper untuk membuat tabel scroll di layar kecil */
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+  
+  /* Panel Kaca untuk membungkus tabel */
+  background: var(--color-glass-bg, rgba(28, 28, 30, 0.4));
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid var(--color-glass-border, rgba(255, 255, 255, 0.2));
+  border-radius: 20px;
+}
+
+.favorites-page table {
+  width: 100%;
+  /* Gunakan border-spacing untuk memberi jarak antar baris */
+  border-collapse: separate; 
+  border-spacing: 0;
+  min-width: 800px;
+}
+
+.favorites-page th,
+.favorites-page td {
+  padding: 1rem 1.5rem;
+  text-align: left;
+  vertical-align: middle;
+  /* Garis pemisah minimalis ala Apple */
+  border-bottom: 1px solid var(--color-glass-border, rgba(255, 255, 255, 0.2));
+}
+
+/* Baris terakhir tidak perlu garis bawah */
+.favorites-page tr:last-child td {
+  border-bottom: none;
+}
+
+.favorites-page th {
+  font-weight: 600;
+  color: var(--color-text-secondary, rgba(235, 235, 245, 0.6));
+}
+
+.favorites-page td img {
+  display: block;
+  border-radius: 8px;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
+.favorites-page td a {
+  font-weight: 600;
+  /* Gunakan variabel Taufik Blue */
+  color: var(--accent-color); 
+}
+
+/* Tombol Hapus (Destructive Action) ala Apple */
+.remove-button {
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: white;
+  background-color: #FF3B30; /* Apple's Red */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: opacity 0.2s var(--apple-ease, ease);
+}
+
+.remove-button:hover {
+  opacity: 0.8;
+}
