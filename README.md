@@ -1,16 +1,80 @@
-# React + Vite
+# 🏛️ Taufik Collections - Museum Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ini adalah proyek *take-home* UTS (Ujian Tengah Semester) untuk mata kuliah Pengembangan Aplikasi Web. Aplikasi ini adalah *explorer* koleksi museum yang dibuat menggunakan React.js dan API dari Metropolitan Museum of Art (Met Museum).
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 👨‍💻 Identitas Pengembang
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Nama:** Taufik Hidayat NST
+- **NIM:** 123140188
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Link Deployment Vercel
+
+Aplikasi ini telah di-deploy dan dapat diakses secara publik melalui Vercel:
+
+➡️ **https://uts-pemweb-123140188.vercel.app/**
+
+---
+
+## ✨ Fitur Utama
+
+- **Pencarian & Filter:** Cari karya seni berdasarkan *keyword* dan filter berdasarkan departemen (data diambil dinamis dari API).
+- **Galeri Kaca:** Tampilan galeri *responsive* dengan efek *glassmorphism*.
+- **Halaman Detail:** Klik pada sebuah karya untuk melihat detail lengkapnya, termasuk artis, tahun, medium, dan budaya.
+- **Koleksi Favorit:** Simpan karya seni favorit Anda. Data favorit disimpan secara persisten di `localStorage` browser.
+- **Tabel Favorit:** Halaman favorit menampilkan koleksi dalam bentuk tabel dinamis yang rapi.
+
+---
+
+## 🛠️ Teknologi yang Digunakan
+
+- **Frontend:** React.js (Vite)
+- **Routing:** React Router DOM
+- **Styling:** CSS Murni (Glassmorphism, Flexbox, CSS Grid)
+- **API:** Metropolitan Museum of Art (Met Museum) API
+- **State Management:** React Hooks (`useState`, `useEffect`)
+- **Deployment:** Vercel
+
+---
+
+## 📸 Screenshot Aplikasi
+
+Berikut adalah beberapa tampilan dari aplikasi:
+
+### 1. Halaman Pencarian & Galeri (Home)
+*Tampilan utama untuk mencari dan melihat galeri koleksi.*
+![Screenshot halaman pencarian dan galeri](search.png)
+
+### 2. Tampilan Detail Karya
+*Halaman yang muncul saat satu karya seni dipilih.*
+![Screenshot halaman detail](detail.jpeg)
+
+### 3. Galeri dengan Hasil Pencarian
+*Contoh galeri saat menampilkan hasil pencarian.*
+![Screenshot galeri koleksi](koleksi.png)
+
+### 4. Halaman Koleksi Favorit
+*Tabel yang menampilkan karya-karya yang telah disimpan.*
+![Screenshot halaman favorit](favorite.jpeg)
+
+---
+
+## ⚙️ Cara Instalasi & Menjalankan Lokal
+
+Untuk menjalankan proyek ini di komputer lokal Anda, ikuti langkah-langkah berikut:
+
+**1. Clone Repositori**
+Buka terminal Anda dan clone repositori ini:
+```bash
+git clone [https://github.com/15-188-Taufik/uts-pemweb-123140188.git](https://github.com/15-188-Taufik/uts-pemweb-123140188.git)
+//2. Masuk ke Direktori Proyek
+cd uts-pemweb-123140188
+//3. Install Dependencies Gunakan npm untuk menginstal semua package yang dibutuhkan:
+npm install
+//4. Jalankan Development Server Setelah instalasi selesai, jalankan server pengembangan Vite:
+npm run dev
+//5. Buka Aplikasi Buka browser Anda dan akses http://localhost:5173 (atau port lain yang ditampilkan di terminal).
