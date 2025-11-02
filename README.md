@@ -47,19 +47,19 @@ Berikut adalah beberapa tampilan dari aplikasi:
 
 ### 1. Halaman Pencarian & Galeri (Home)
 *Tampilan utama untuk mencari dan melihat galeri koleksi.*
-![Screenshot halaman pencarian dan galeri](search.png)
+![Screenshot halaman pencarian dan galeri](_readme_assets/search.png)
 
 ### 2. Tampilan Detail Karya
 *Halaman yang muncul saat satu karya seni dipilih.*
-![Screenshot halaman detail](detail.jpeg)
+![Screenshot halaman detail](_readme_assets/detail.jpeg)
 
 ### 3. Galeri dengan Hasil Pencarian
 *Contoh galeri saat menampilkan hasil pencarian.*
-![Screenshot galeri koleksi](koleksi.png)
+![Screenshot galeri koleksi](_readme_assets/koleksi.png)
 
 ### 4. Halaman Koleksi Favorit
 *Tabel yang menampilkan karya-karya yang telah disimpan.*
-![Screenshot halaman favorit](favorite.jpeg)
+![Screenshot halaman favorit](readme_assets/favorite.jpeg)
 
 ---
 
